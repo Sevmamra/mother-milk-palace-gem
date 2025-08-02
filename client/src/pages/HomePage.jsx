@@ -1,11 +1,13 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
+import CategorySection from '../components/CategorySection';
 
 const HomePage = () => {
   return (
     <>
       <HeroSection />
-      {/* Other sections like categories, best sellers etc. will go here */}
+      <CategorySection />
+      {/* Other sections like Best Sellers, Offers, etc. will go here */}
     </>
   );
 };
